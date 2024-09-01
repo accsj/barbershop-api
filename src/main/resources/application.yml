@@ -28,18 +28,6 @@ spring:
       max-file-size: 200MB
       max-request-size: 215MB
 
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: antonioaccsjr2@gmail.com
-    password: eheq bbhh rmpb imvy
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-
 server:
   error:
     include-stacktrace: never
@@ -49,7 +37,3 @@ ohana:
     token:
       secret: ${JWT_SIGN:k3Y$eCuRe1!nG@1g!N^eS3cReT123456}
 
-
-email:
-  assunto: Assunto
-  mensagem: Mensagem
